@@ -2,9 +2,8 @@ import React from "react";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer";
 import Button from "./Components/Button/Buttons";
-
+import ContactForm from "./Components/Form/index";
 import "./App.css";
-import TestForm from "./Components/Form/index";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       <Header />
       <Footer />
       <Button value="Click!" styleClass="btn-default" />
-      <TestForm />
+      <ContactForm />
     </div>
   );
 }
