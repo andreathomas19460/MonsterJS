@@ -1,22 +1,18 @@
-
 import React from "react";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer";
-import Button from "./Components/Buttons";
-
+import Button from "./Components/Button/Buttons";
 
 import "./App.css";
-import TestForm from './Components/Form/index'
+import TestForm from "./Components/Form/index";
 
 function App() {
   return (
     <div>
       <Header />
       <Footer />
-      <Button
-        value='Click!'
-        styleClass='btn-default' />
-        <TestForm />
+      <Button value="Click!" styleClass="btn-default" />
+      <TestForm />
     </div>
   );
 }

@@ -48,7 +48,7 @@ img {
 
 .midnight a:hover,
 .midnight button:hover,
-.btn-midnight:hover {
+.midnight.btn:hover {
   background-color: #606061;
   border: none;
 }
@@ -71,7 +71,7 @@ img {
 
 .lagoon a:hover,
 .lagoon button:hover,
-.btn-lagoon:hover {
+.lagoon.btn:hover {
   background-color: #839ab7;
   border: none;
 }
@@ -96,7 +96,7 @@ img {
 
 .sunset a:hover,
 .sunset button:hover,
-.btn-sunset:hover {
+.sunset.btn:hover {
   background-color: #e56800;
   border: none;
 }
@@ -121,7 +121,7 @@ img {
 
 .moon a:hover,
 .moon button:hover,
-.btn-moon:hover {
+.moon.btn:hover {
   background-color: #cacad0;
   border: none;
 }
@@ -209,10 +209,6 @@ img {
   float: left;
   margin-left: 5px;
 }
-
-/* .icon {
-    display: none;
-  } */
 
 @media screen and (max-width: 600px) {
   .icon {
