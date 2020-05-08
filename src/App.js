@@ -14,7 +14,7 @@ function App() {
       <Button
         value='Click!'
         styleClass='btn-default' />
-        <ContactForm />
+        <ContactForm styleClass={'sunset'}/>
     </div>
   );
 }
