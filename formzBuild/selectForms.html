@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms with select fields</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="../headerBuild/style.css" />
+  </head>
+  <body>
+    <div class="form-header">
+      <div></div>
+      <h1>Forms with selections</h1>
+      <div></div>
+    </div>
+    <div class="monster-col">
+    <form>
+      <div class="form-elements midnight">
+        <h1 class="midnight-label selection-header" id="midnight-selection-header">Midnight selection form</h1>
+      </div>
+      <div class="form-elements midnight filtered-dropdown">
+        <label for="exampleSingleSelect" class="midnight-label"
+          >Single Option</label
+        >
+        <select id="value-list">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-elements midnight">
+        <label class="midnight-label" for="exampleMultiSelect"
+          >Multiple options</label
+        >
+        <select multiple>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-elements midnight">
+        <label class="midnight-label" for="exampleTextarea">Text area</label>
+        <textarea rows="5"></textarea>
+      </div>
+    </form>
+    <form class="lagoon-radio-form">
+      <div class="form-elements lagoon">
+        <label class="lagoon-label">Lagoon Radio form</label>
+      </div>
+      <div class="radio-wrapper">
+      <form>
+        <input type="radio" name="mood" value="motivated">
+        <label for="motivated">Motivated</label><br>
+        <input type="radio"  name="mood" value="fascinated">
+        <label for="fascinated">Fascinated</label><br>
+        <input type="radio" id="other" name="mood" value="other">
+        <label for="other">Other</label>
+      </form> 
+    </div>
+    </form>
+  </div>
+  <br>
+  <br>
+  <div class="monster-col">
+    <form>
+      <div class="form-elements sunset">
+        <label class="sunset-label selection-header">Sunset selection form</label>
+      </div>
+      <div class="form-elements sunset">
+        <label for="exampleSingleSelect" class="sunset-label"
+          >Single option</label
+        >
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-elements sunset">
+        <label class="sunset-label" for="exampleMultiSelect"
+          >Multiple options</label
+        >
+        <select multiple>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-elements sunset">
+        <label class="sunset-label" for="exampleTextarea">Text area</label>
+        <textarea rows="5"></textarea>
+      </div>
+    </form>
+    <form class="moon-radio-form">
+      <div class="form-elements Moon">
+        <label class="Moon-label">Moon Radio form</label>
+      </div>
+      <form>
+        <input type="radio" name="mood" value="motivated">
+        <label for="motivated">Motivated</label><br>
+        <input type="radio"  name="mood" value="fascinated">
+        <label for="fascinated">Fascinated</label><br>
+        <input type="radio" id="other" name="mood" value="other">
+        <label for="other">Other</label>
+      </form> 
+    </form>
+  </div>
+  <script src="index.js"></script>
+  </body>
+</html>

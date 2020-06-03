@@ -1,0 +1,169 @@
+
+.text-action {
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#btnWrapper {
+    box-sizing: border-box;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-elements {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 500px;
+}
+
+.lagoon-label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: .3em .7em .25em .4em;
+}
+
+.midnight-label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 50px;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: .3em .7em .25em .4em;
+}
+
+.moon-label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: .3em .7em .25em .4em;
+}
+
+.sunset-label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #f8de7e;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: .3em .7em .25em .4em;
+}
+
+.input-form {
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+}
+
+.monster-col {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    border-bottom-width: .2rem;
+    border-bottom: .2rem;
+    border-bottom-style: solid;
+}
+
+textarea {
+    resize: none;
+}
+
+.selection-header {
+    margin-bottom: .2rem;
+    padding-bottom: 1rem;
+}
+
+.midnight-selection-form {
+    background-color: orange;
+}
+
+select {
+    padding: .3em .7em .25em .4em;
+}
+
+.lagoon-radio-form {
+    background-color: #5986b5;
+    border-width: .2rem;
+    border-style: solid;
+    height: 110px;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.moon-radio-form {
+    background-color: #f8f8ff;
+    border-width: .2rem;
+    border-style: solid;
+    height: 100px;
+    color: black;
+}
+
+
+input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+ }
+
+ /* test filtered dropdown */
+.filtered-dropdown {
+    align-items: center;
+    letter-spacing: 2px;
+    margin-bottom: .2rem;
+    padding-bottom: 1rem;
+}
+
+#midnight-selection-header {
+font-weight: normal;
+}
+
+#value-list {
+    -webkit-appearance: none;
+    appearance: none;
+    color: #000;
+}
+
+#value-list {
+    text-align-last: center;
+    text-align: center;
+    width: 140px;
+    height: 34px;
+    
+  }
+
+#value-list::after {
+position: absolute;
+right: 0;
+top: 0;
+width: 50px;
+height: 100%;
+line-height: 38px;
+content: '\002B';
+text-align: center;
+color: #714BB9;
+font-size: 24px;
+border-left: 1px solid #3C1C78;
+z-index: -1;
+}  
+  
+  

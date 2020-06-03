@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar button {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-links a:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .active {
+    display: none;
+  }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header with Dropdown</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar midnight" id="myNav">
+      <div class="logo">
+        <img
+          src="logo192.png"
+          alt="react logo"
+          width="42"
+          height="42"
+          style="float: left;"
+        />
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <button class="icon">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="navbar lagoon" id="myNav">
+      <div class="logo">
+        <img
+          src="logo192.png"
+          alt="react logo"
+          width="42"
+          height="42"
+          style="float: left;"
+        />
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <button class="icon">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="navbar sunset" id="myNav">
+      <div class="logo">
+        <img
+          src="logo192.png"
+          alt="react logo"
+          width="42"
+          height="42"
+          style="float: left;"
+        />
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <button class="icon">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="navbar moon" id="myNav">
+      <div class="logo">
+        <img
+          src="logo192.png"
+          alt="react logo"
+          width="42"
+          height="42"
+          style="float: left;"
+        />
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <button class="icon">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll("button").forEach((btn) => {
+        btn.addEventListener("click", responsiveNav);
+      });
+
+      function responsiveNav() {
+        let nav = this.parentNode.parentNode;
+
+        if (!nav.className.includes("responsive")) {
+          nav.className += " responsive";
+        } else {
+          nav.className = nav.className.replace(" responsive", " ");
+        }
+      }
+    </script>
+  </body>
+</html>
